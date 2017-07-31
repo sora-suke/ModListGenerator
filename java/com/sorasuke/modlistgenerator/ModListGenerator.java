@@ -19,13 +19,15 @@ import java.util.List;
 @Mod(
         modid = ModListGenerator.MODID,
         name = ModListGenerator.MODNAME,
-        version = ModListGenerator.VERSION
+        version = ModListGenerator.VERSION,
+        acceptedMinecraftVersions  = ModListGenerator.MOD_ACCEPTED_MC_VERSIONS
 )
 public class ModListGenerator {
 
     public static final String MODID = "modlistgenerator";
     public static final String MODNAME = "ModListGenerator";
     public static final String VERSION = "1.2";
+    public static final String MOD_ACCEPTED_MC_VERSIONS = "[1.10.2,1.11.2]";
 
     public static String dirName = "modlist";
     public static String fileName = "list";
