@@ -23,7 +23,7 @@ import java.util.List;
 )
 public class ModListGenerator {
 
-    public static final String MODID = "ModListGenerator";
+    public static final String MODID = "modlistgenerator";
     public static final String MODNAME = "ModListGenerator";
     public static final String VERSION = "1.2";
 
